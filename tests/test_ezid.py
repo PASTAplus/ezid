@@ -27,7 +27,7 @@ from ezid import Ezid
 class TestEzid(unittest.TestCase):
 
     def setUp(self):
-        self.ezid = Ezid(properties.user, passwd=properties.passwd)
+        self.ezid = Ezid(user=properties.user, passwd=properties.passwd)
 
     def tearDown(self):
         pass
